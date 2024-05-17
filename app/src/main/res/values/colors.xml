@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/colors.xml -->
+<resources>
+    <!-- Define your custom colors here -->
+    <color name="my_light_skin">#DDCCA285</color> <!-- Example light skin color -->
+<!--    <color name="my_light_skin_variant">#FFE4C4</color> &lt;!&ndash; A variant, if needed &ndash;&gt;-->
+    <color name="black">#000000</color><!-- Text color on light skin -->
+    <!-- Add other custom colors as needed -->
+</resources>

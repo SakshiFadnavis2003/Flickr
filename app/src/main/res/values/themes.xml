@@ -1,0 +1,12 @@
+<!-- res/values/styles.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VideosApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_skin</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- You can customize other theme attributes as needed -->
+    </style>
+
+    <style name="Theme.VideosApp" parent="Base.Theme.VideosApp" />
+</resources>

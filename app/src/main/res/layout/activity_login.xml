@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/img_1">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="8dp"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="Flickr"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="300dp"
+        android:hint="  Username"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bordered_text"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editTextUsername"
+        android:layout_marginTop="10dp"
+        android:hint="  Password"
+        android:inputType="textPassword"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bordered_text"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginTop="30dp"
+        android:text="Login"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonSignup"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLogin"
+        android:layout_marginTop="5dp"
+        android:text="Signup"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
