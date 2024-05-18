@@ -27,20 +27,5 @@ Flickr is a mobile application designed with essential login and signup function
 2. **Signup**: Create a new account if you are a new user.
 3. **Explore Reels**: Browse through the inbuilt reels available on the app.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any inquiries or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
-
 
 Thank you for using Flickr!
-```
-
-Make sure to replace placeholders like `https://github.com/your-username/flickr-app.git` and `your-email@example.com` with your actual GitHub repository URL and contact email. Additionally, you can add screenshots of your app in the `screenshots` folder to make the README more visually appealing.
